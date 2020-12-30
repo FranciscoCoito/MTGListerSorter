@@ -192,6 +192,7 @@ namespace MTGListerSorter
             switch (option)
             {
                 case EDropDownTextListPanel.Colour:
+                    #region Case Colour
                     colourPanel.Show();
                     colourPanel.Focus();
                     foreach (dynamic col in m_cardEntry.colourSet)
@@ -199,9 +200,11 @@ namespace MTGListerSorter
                         dynamic indexColour = colourListbox.FindString(ENumConverters.printEColour(col));
                         colourListbox.SetSelected(indexColour, true);
                     }
+                    #endregion
                     break;
 
                 case EDropDownTextListPanel.Language:
+                    #region Case Language
                     languagePanel.Show();
                     languagePanel.Focus();
                     if (m_cardEntry.language != ELanguage.Unknown)
@@ -209,16 +212,20 @@ namespace MTGListerSorter
                         dynamic indexLanguage = languageListbox.FindString(m_cardEntry.printLanguage());
                         languageListbox.SetSelected(indexLanguage, true);
                     }
+                    #endregion
                     break;
 
                 case EDropDownTextListPanel.Rarity:
+                    #region Rarity
                     rarityPanel.Show();
                     rarityPanel.Focus();
                     dynamic indexRarity = rarityListbox.FindString(m_cardEntry.printRarity());
                     rarityListbox.SetSelected(indexRarity, true);
+                    #endregion
                     break;
 
                 case EDropDownTextListPanel.CardVariation:
+                    #region Case Card Variation
                     cardVariationPanel.Show();
                     cardVariationPanel.Focus();
                     foreach (dynamic cardVar in m_cardEntry.variation)
@@ -229,10 +236,11 @@ namespace MTGListerSorter
                             cardVariationListbox.SetSelected(indexCardVariation, true);
                         }
                     }
+                    #endregion
                     break;
 
                 case EDropDownTextListPanel.Types:
-
+                    #region Case Types
                     #region Types Panel/List
                     typesListbox.Items.Clear();
                     typesListbox.Items.AddRange(Enum.GetNames(typeof(EType)));
@@ -250,9 +258,11 @@ namespace MTGListerSorter
                     }
                     typesPanel.Show();
                     typesPanel.Focus();
+                    #endregion
                     break;
 
                 case EDropDownTextListPanel.Edition:
+                    #region Case Edition
                     if (StoringEditionElement.getEntryList().Length > 0)
                     {
                         string repEditStr = "";
@@ -288,6 +298,7 @@ namespace MTGListerSorter
                             clickCallPopUpDelegate(EPopUpSourceCalled.Type);
                         }
                     }
+                    #endregion
                     break;
 
             }
@@ -466,6 +477,11 @@ namespace MTGListerSorter
                     }
                     typeBox.Text = m_cardEntry.printTypes(StoringSubTypeElement.getEntryList().ToList());
 
+                    break;
+
+                case EDropDownTextListPanel.Edition:
+                    getlist
+                    m_cardEntry.editionID
                     break;
             }
         }

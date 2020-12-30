@@ -254,8 +254,8 @@ namespace MTGListerSorter
         }
 
 
-        MTGElementForm m_mtgElementForm;
-        uint m_currentRow;
-        EOverPanelViewMode m_currentOverPanelMode;
+        MTGElementForm          m_mtgElementForm;
+        uint                    m_currentRow;
+        EOverPanelViewMode      m_currentOverPanelMode;
     }
 }

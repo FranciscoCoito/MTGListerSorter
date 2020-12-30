@@ -5,7 +5,6 @@ E:\Personal Documents\Projects\App\MTGListerSorter\MTGListerSorter\bin\Debug\net
 E:\Personal Documents\Projects\App\MTGListerSorter\MTGListerSorter\bin\Debug\netcoreapp3.1\MTGListerSorter.dll
 E:\Personal Documents\Projects\App\MTGListerSorter\MTGListerSorter\bin\Debug\netcoreapp3.1\MTGListerSorter.pdb
 E:\Personal Documents\Projects\App\MTGListerSorter\MTGListerSorter\obj\Debug\netcoreapp3.1\MTGListerSorter.csprojAssemblyReference.cache
-E:\Personal Documents\Projects\App\MTGListerSorter\MTGListerSorter\obj\Debug\netcoreapp3.1\MTGListerSorter.MainForm - Cópia.resources
 E:\Personal Documents\Projects\App\MTGListerSorter\MTGListerSorter\obj\Debug\netcoreapp3.1\MTGListerSorter.MainForm.resources
 E:\Personal Documents\Projects\App\MTGListerSorter\MTGListerSorter\obj\Debug\netcoreapp3.1\MTGListerSorter.MTGListElement.resources
 E:\Personal Documents\Projects\App\MTGListerSorter\MTGListerSorter\obj\Debug\netcoreapp3.1\MTGListerSorter.Form1.resources

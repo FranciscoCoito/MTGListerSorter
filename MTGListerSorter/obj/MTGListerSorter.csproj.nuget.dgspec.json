@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal Documents\\Project\\C_Sharp\\MTGListerSorter\\MTGListerSorter\\MTGListerSorter.csproj": {}
+    "E:\\Personal Documents\\Projects\\App\\MTGListerSorter\\MTGListerSorter\\MTGListerSorter.csproj": {}
   },
   "projects": {
-    "D:\\Personal Documents\\Project\\C_Sharp\\MTGListerSorter\\MTGListerSorter\\MTGListerSorter.csproj": {
+    "E:\\Personal Documents\\Projects\\App\\MTGListerSorter\\MTGListerSorter\\MTGListerSorter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal Documents\\Project\\C_Sharp\\MTGListerSorter\\MTGListerSorter\\MTGListerSorter.csproj",
+        "projectUniqueName": "E:\\Personal Documents\\Projects\\App\\MTGListerSorter\\MTGListerSorter\\MTGListerSorter.csproj",
         "projectName": "MTGListerSorter",
-        "projectPath": "D:\\Personal Documents\\Project\\C_Sharp\\MTGListerSorter\\MTGListerSorter\\MTGListerSorter.csproj",
-        "packagesPath": "C:\\Users\\fmcoi\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal Documents\\Project\\C_Sharp\\MTGListerSorter\\MTGListerSorter\\obj\\",
+        "projectPath": "E:\\Personal Documents\\Projects\\App\\MTGListerSorter\\MTGListerSorter\\MTGListerSorter.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal Documents\\Projects\\App\\MTGListerSorter\\MTGListerSorter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fmcoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -58,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
